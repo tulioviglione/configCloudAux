@@ -9,9 +9,6 @@ eureka:
 spring:
   zipkin:
     base-url: http://zipkin-service:9411/
-  data:
-    host: mongodb
-    port: 27017
   rabbitmq:
     username: guest
     password: guest
